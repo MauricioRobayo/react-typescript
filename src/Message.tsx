@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Message = () => {
+const Message = (props: { message: string }): any => {
   return (
-    <p>This is a quick message!!!</p>
+    <p>{props.message}</p>
   )
 }
 
