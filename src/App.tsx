@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Message message='This is a quick message!!!'/>
+        <Message name='Manny' message='This is a quick message!!!'/>
       </header>
     </div>
   );
